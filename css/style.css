@@ -1,0 +1,789 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    height: 10vh;
+}
+
+/*section{height: 20vh;}*/
+aside {
+    height: 20vh;
+}
+
+footer {
+    height: 8vh;
+}
+
+p {
+    margin: 1.4em;
+    text-align: center;
+}
+
+header,
+section,
+aside,
+footer {
+    padding: 1.25em;
+    border-radius: 4px;
+    margin: 0.75em;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    border-style: solid;
+    border-width: 0.1em;
+    border-radius: 0.6em;
+    border-color: rgb(236, 236, 236);
+    width: 100%;
+    background-color: rgb(251, 253, 255);
+    box-shadow: 0em 0em 0.9em 0.08em rgb(100, 100, 100);
+}
+
+.headerMenu {
+
+    display: flex;
+    align-items: center;
+    /* margin-right: 10em; */
+    align-content: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+li {
+    margin: 0 1rem;
+}
+
+
+[class*="col-"] {
+    float: left;
+}
+
+
+
+
+.parallax {
+    /* The image used */
+    background-image: url("/img/parallaxBackground.png");
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20em;
+}
+
+#backgroundIndexImage {
+    z-index: -1;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+#featuresIndexBackground {
+    width: 20em;
+    border-radius: 1em;
+    height: auto;
+    padding: 0px;
+}
+
+/*-------------------------------------------------------------------------------------------Clouds-------------------------------------------------------------------------------*/
+.cloudsResume {
+    background-image: url(/img/n-up-resource-background\ \(1\).webp);
+    background-color: rgb(rgb(255, 255, 255, 0.1));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: unset;
+}
+
+.clouds {
+    display: flex;
+    max-width: 20em;
+    width: 10% auto;
+    border-style: solid;
+    border-width: 0.05vh;
+    margin: 1em;
+    padding: 1em 1.5em;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 1em;
+    box-shadow: 0em 0em 2em 0.08em rgb(150, 185, 255);
+    box-shadow: 0em 1em 2em 0.08em rgb(6, 133, 230);
+    background-color: rgb(238, 242, 249);
+
+}
+
+.cloudsBox {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+    justify-content: center;
+}
+
+#salesCloud {
+    box-shadow: 0em 1em 0.1em 0.01em rgb(34, 244, 44);
+}
+
+#serviceCloud {
+    box-shadow: 0em 1em 0.1em 0.01em rgb(65, 135, 255);
+}
+
+#marketingCloud {
+    box-shadow: 0em 1em 0.1em 0.01em rgb(255, 128, 2);
+}
+
+#comerceCloud {
+    box-shadow: 0em 1em 0.1em 0.01em rgb(245, 54, 54);
+}
+
+#AICloud {
+    box-shadow: 0em 1em 0.1em 0.01em rgb(217, 2, 255);
+}
+
+.accesoCosas {
+
+    display: flex;
+    border-style: solid;
+    border-width: 0.2vh;
+    border-radius: 0.5em;
+    margin: 1em;
+    padding: 5em 2em;
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(245, 250, 255);
+    box-shadow: 0em 0em 0.4em 0.08em rgb(150, 185, 255);
+}
+
+.accesoCosasBox {
+    max-width: 25em;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+    scale: 80%;
+}
+
+#princingIndexButton {
+    width: 80em;
+}
+
+#video {
+    box-shadow: 0em 0em 0.4em 0.08em rgb(150, 185, 255);
+}
+
+/*----------------------------------------------------------------------------------------TEXTOS--------------------------------------------------------------------*/
+.tituloInfo {
+    font-size: 40px;
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    text-align: center;
+}
+
+#tituloPrincipal {
+    font-size: 40px;
+}
+
+.featuresBody {
+    margin-top: 2em;
+}
+
+#info_2 {
+    font-size: 25px;
+    text-align: start;
+    width: 70%;
+}
+
+#info_3 {
+    font-size: 25px;
+    text-align: start;
+    width: 70%;
+}
+
+#info_4 {
+    font-size: 25px;
+    text-align: start;
+    width: 70%;
+}
+
+#info_1 {
+    font-size: 25px;
+    text-align: center;
+    width: 70%;
+}
+
+/*-------------------------------------------------------------------------------------PRECIOS-----------------------------------------------------------------------*/
+.precios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.precioBasico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.precioBasico ul {
+    padding: 1em;
+    display: block;
+}
+
+.precioBox {
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 0.4em;
+    box-shadow: 0em 0em 0.4em 0.08em rgb(150, 185, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+.precioEspecial {
+    border-style: dashed;
+    border-color: #3d94cf;
+    border-width: 0.1em;
+    scale: 110%;
+    background-color: rgb(242, 253, 254);
+    box-shadow: 0em 0em 2em 0.1em rgb(150, 185, 255);
+}
+
+/* From Uiverse.io by suda-code */
+/*estilo de boton gratis*/
+button {
+    scale: 150%;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #2ba8fb;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+/*---------------------------------------------------------------------------------FORMULARIO--------------------------------------------------------------------------*/
+
+/* From Uiverse.io by StefanR1901 */
+.colorful-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+}
+
+textarea.form-input {
+    height: 100px;
+}
+
+.form-button {
+    display: block;
+    scale: 100%;
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #ff5f59;
+}
+
+/*---------------------------------------------------------------------------------------RESPONSIBE----------------------------------------------------------------*/
+/* Mobile First --> Default columns */
+#loginButton{
+    scale: 100%;
+}
+.logo {
+    width: 20%;
+    margin-bottom: 1em;
+}
+
+.loginMenu {
+    margin-top: 1em;
+}
+
+.selector {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+header {
+    height: 8em;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    margin: 1em;
+}
+
+
+#video iframe {
+    width: 20em;
+    height: auto;
+}
+
+#indexURLbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.supportSection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.formularioContacto {
+    width: 100%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .col-sm-8 {
+        width: 66.66%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+    .parallax {
+        height: 20em;
+    }
+
+    .precios {
+        flex-wrap: wrap;
+    }
+
+    .headerMenu {
+        flex-wrap: wrap;
+    }
+
+    header {
+        height: 8em;
+        font-size: 16px;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 1em;
+    }
+
+    .accesoCosasBox {
+        max-width: 35em;
+    }
+
+    #featuresIndexBackground {
+        margin-left: 4em;
+    }
+
+    #video iframe {
+        width: 35em;
+        height: 25em;
+    }
+
+    .loginMenu {
+        margin-top: 0em;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+    header {
+        height: 10vh;
+    }
+
+    aside {
+        height: 20vh;
+    }
+
+    footer {
+        height: 15vh;
+    }
+
+    .parallax {
+        height: 40em;
+    }
+
+    .headerMenu {
+        flex-wrap: nowrap;
+    }
+
+    .cloudsBox {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .clouds {
+        font-size: 18px;
+    }
+
+    #tituloPrincipal {
+        font-size: 80px;
+        background-color: #ffffff98;
+        border-radius: 1em;
+    }
+
+    #descripcionTitulo {
+        font-size: 30px;
+        text-align: center;
+        text-shadow: 0em 0em 0.1em white;
+        background-color: #ffffff98;
+        border-radius: 1em;
+    }
+
+    .accesoCosasBox {
+        flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1em;
+        scale: 100%;
+        width: 40em;
+        margin-left: 5em;
+    }
+
+
+    .selector {
+        margin-top: 20em;
+    }
+
+    .logo {
+        width: 8em;
+        margin-bottom: 0px;
+        margin-right: 7em;
+    }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-8 {
+        width: 66.66%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+
+    header {
+        height: 10vh;
+    }
+
+    aside {
+        height: 90vh;
+    }
+
+    footer {
+        height: 8vh;
+    }
+
+    .selector {
+        margin-top: 10em;
+    }
+
+    .accesoCosasBox {
+        width: 70em;
+    }
+
+    .tituloInfo {
+        font-size: 25px;
+    }
+
+    .supportSection {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .infoMapa iframe {
+        width: 60em;
+        height: 30em;
+    }
+
+    .clouds {
+        scale: 120%;
+        margin: 4em;
+    }
+
+    #indexURLbox {
+        flex-direction: column;
+    }
+
+    #featuresIndexBackground {
+        margin-left: 0em;
+    }
+
+    .textInfoFeatures {
+        background-color: #ffffff5d;
+    }
+
+    .logo {
+        width: 4em;
+        margin-bottom: 0px;
+        margin-right: 15em;
+    }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .col-xl-4 {
+        width: 33.33%;
+    }
+
+    .col-xl-8 {
+        width: 66.66%;
+    }
+
+    .col-xl-12 {
+        width: 100%;
+    }
+
+    header {
+        height: 10vh;
+    }
+
+    aside {
+        height: 20vh;
+    }
+
+    footer {
+        height: 15vh;
+    }
+
+    .accesoCosasBox {
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-left: 5em;
+    }
+
+    .parallax {
+        height: 40em;
+    }
+
+    .headerMenu {
+        flex-wrap: nowrap;
+    }
+
+    .cloudsBox {
+        flex-wrap: nowrap;
+        scale: 80%;
+    }
+
+    header {
+        height: 10vh;
+    }
+
+    .precios {
+        flex-wrap: nowrap;
+    }
+
+    .selector {
+        margin-top: 5em;
+    }
+
+    .logo {
+        width: 4em;
+        margin-bottom: 0px;
+        margin-right: 20em;
+    }
+
+    .loginMenu {
+        margin-left: 20em;
+    }
+}
+
+#infoSection {
+    display: flex;
+    flex-wrap: wrap;
+    /* height             : 80em; */
+    border-style: solid;
+    border-width: 0.1em;
+    border-radius: 1em;
+    box-shadow: 0em 0em 0.7em 0.3em rgb(150, 185, 255);
+    background-image: url(/img/product-portfolio-customer-relationships.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    text-shadow: 0em 0em 0.3em white;
+
+}
+
+#video {
+    display: flex;
+}
+
+#video iframe {
+    box-shadow: 0em 0em 0.7em 0.3em rgb(150, 185, 255);
+    margin-left: 0em;
+    scale: 100%;
+    height: 400px;
+    width: 720px;
+}
+
+
+/*portatil pantalla completa*/
+@media only screen and (min-width:1600px) {
+
+    .precioBox
+    {
+        height: 40em;
+        display: flex;
+    }
+
+    .headerMenu {
+        font-size: 27px;
+    }
+    .supportSection {
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+
+    .infoMapa iframe {
+        width: 60em;
+        height: 30em;
+    }
+
+    .formularioContacto {
+        width: 100%;
+        align-items: center;
+    }
+
+    .loginMenu {
+        margin-left: 12em;
+    }
+
+    #video iframe {
+        box-shadow: 0em 0em 0.7em 0.3em rgb(150, 185, 255);
+        scale: 80%;
+        height: 820px;
+        width: 2440px;
+        margin-left: 0em;
+    }
+
+}
+
+.precioBasico ul li {
+    padding: 1em;
+}

@@ -82,7 +82,7 @@ li {
 
 .parallax {
     /* The image used */
-    background-image: url("/img/parallaxBackground.png");
+    background-image: url("./img/parallaxBackground.png");
 
 
     /* Create the parallax scrolling effect */
@@ -109,7 +109,7 @@ li {
 
 /*-------------------------------------------------------------------------------------------Clouds-------------------------------------------------------------------------------*/
 .cloudsResume {
-    background-image: url(/img/n-up-resource-background\ \(1\).webp);
+    background-image: url(./img/n-up-resource-background\ \(1\).webp);
     background-color: rgb(rgb(255, 255, 255, 0.1));
     background-position: center;
     background-repeat: no-repeat;
@@ -722,7 +722,7 @@ h1 {
     border-width: 0.1em;
     border-radius: 1em;
     box-shadow: 0em 0em 0.7em 0.3em rgb(150, 185, 255);
-    background-image: url(/img/product-portfolio-customer-relationships.webp);
+    background-image: url(./img/product-portfolio-customer-relationships.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: inherit;
